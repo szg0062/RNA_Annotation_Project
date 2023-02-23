@@ -5,12 +5,14 @@ The link to the repo I made is https://github.com/szg0062/miRNA_Annotation_Proje
 
 # Purpose
 Overall purpose of the project (i.e. what are you trying to create scripts or a tutorial for)
+
 The overall purpose of these scripts is to annotate VCFs that have been processed through a bioinformatics pipeline and extract the miRNAs regions from whole genome sequencing for genetic analysis. For my research group, we are looking to identify gene mutations that could be associated with breast cancer. There is more newer research that suggest that miRNAs are key players in tumorigenesis because they are involved in gene expression of messenger RNAs.
 
 # Coding language(s)
 Coding languages to be used are mainly in Python, but I  may need to do some bash.
 
 # Existing packages you would like to use for the project.
+
 There are some requirements for the conda environment that are needed and listed below.
 
 matplotlib==3.4.3
