@@ -15,19 +15,19 @@ Coding languages to be used are mainly in Python, but I  may need to do some ba
 
 There are some requirements for the conda environment that are needed and listed below.
 
-matplotlib==3.4.3
-pandas==1.2.3
-click==7.1.2
-openpyxl==3.0.7
-numpy==1.20.2
-biopython==1.78
-xlrd==2.0.1
-lxml==4.6.3
-requests==2.25.1
-scipy==1.6.3
-seaborn==0.11.1
-regex==2021.7.6
-hgvs
+* matplotlib==3.4.3
+* pandas==1.2.3
+* click==7.1.2
+* openpyxl==3.0.7
+* numpy==1.20.2
+* biopython==1.78
+* xlrd==2.0.1
+* lxml==4.6.3
+* requests==2.25.1
+* scipy==1.6.3
+* seaborn==0.11.1
+* regex==2021.7.6
+* hgvs
 
 # Data Source
 
