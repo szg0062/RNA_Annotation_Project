@@ -16,32 +16,19 @@ Coding languages to be used are mainly in Python, but I  may need to do some ba
 There are some requirements for the conda environment that are needed and listed below.
 
 matplotlib==3.4.3
-
 pandas==1.2.3
-
 click==7.1.2
-
 openpyxl==3.0.7
-
 numpy==1.20.2
-
 biopython==1.78
-
 xlrd==2.0.1
-
 lxml==4.6.3
-
 requests==2.25.1
-
 scipy==1.6.3
-
 seaborn==0.11.1
-
 regex==2021.7.6
-
 hgvs
 
-# Data you will use for the project (i.e. if this is data you have generated in your research OR an existing repository with data provided such as a dryad repository from an existing paper, OR a website you will download your data from (i.e. NCBI))
-If you do not have a specific location of where your data will come from, include what type of data you are wanting to work with.
+# Data Source
 
-I will be using data from my current research project, but there are sample files included  with the original that i could use. 
+I will be using data from my current research project, but there are sample files included  with the original that I could use. 
