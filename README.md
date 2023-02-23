@@ -31,4 +31,4 @@ hgvs
 
 # Data Source
 
-I will be using data from my current research project, but there are sample files included  with the original that I could use. 
+I will be using data from my current research project, but there are sample files included  with the original that I could use. I have a total of 40 breast cancer cases, and 50 non-cancer cases with miRNAs have been extracted. And I am in the processing the individual VCF files into a single VCF to use as an inout file for the miRNA annotation program.
