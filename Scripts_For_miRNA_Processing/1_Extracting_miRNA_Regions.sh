@@ -1,10 +1,12 @@
 #! /bin/sh
 
+### Make sure to change locations as need.
+
 cd /home/szg0062/miRNA/BC_Cases/GVCF_FILES
 
 module load vcftools
 
-
+### Making list for loop
 ls *.g.vcf > FSamplesList.txt
 FILELIST=`cat FSamplesList.txt`  ##Can be used if a file list is needed
 
