@@ -70,5 +70,9 @@ In the **mirnome-mutations folder**, you will  find all the necessary python scr
 Unfortunately, I have not been able to figure out how to get this program to function to process the annotated VCF generated from the scripts above. However, I hope you will find this repo helpful.
 
 
+Sample data is provided in **Sample_Control_File folder** . Due to this being preliminary data for an ongoing project and the size of the files in this analysis, I tried providing only one file for this analysis. But, the one file was too large for Github. 
+To address this issue, I will 
+
+
 
 
