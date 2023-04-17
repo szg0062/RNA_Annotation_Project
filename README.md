@@ -65,13 +65,13 @@ The following scripts are the scripts present in Scripts_For_miRNA_Processing:
 
 
 
-In the **mirnome-mutations folder**, you will  find all the necessary python scripts to create a conda environment to annonate the resulting VCF. For better understanding of these scripts please refer to the protocol of this program (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8686061/).
+Unfortunately, I have not been able to figure out how to get this annotation program to function to process to gen an annotated VCF generated from the scripts above. However, I hope you will find this repo helpful.
 
-Unfortunately, I have not been able to figure out how to get this program to function to process the annotated VCF generated from the scripts above. However, I hope you will find this repo helpful.
+For better understanding of the annotation scripts please refer to the protocol of this program (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8686061/).
 
 
 Sample data is provided in **Sample_Control_File folder** . Due to this being preliminary data for an ongoing project and the size of the files in this analysis, I tried providing only one file for this analysis. But, the one file was too large for Github. 
-To address this issue, I will 
+To address this issue, I will copy lines and input in a new file titled Sample_data.vcf. For the demo, you will use the five scripts in the Scripts_for_miRNA_Processing folder. 
 
 
 
