@@ -9,7 +9,7 @@ The link to the repo I made is https://github.com/szg0062/miRNA_Annotation_Proje
 The overall purpose of these scripts is to annotate VCFs that have been processed through a bioinformatics pipeline and miRNA regions extracted from whole genome sequencing for genetic analysis. Annotation is fairly important in my research because there are many genes that are going to present in the data and knowing the name of the miRNAs can help with seeing which ones are functionally revelant. Furthermore, this miRNA name should be from some database to make identification easier. My research group are looking to identify mutations that could be associated with breast cancer. There is newer research that shows that miRNAs are key players in tumorigenesis because they are involved in gene expression of messenger RNAs. Identifying miRNA mutations may help uncover alternative binding of mRNAs, which would subsequently change gene expression. 
 
 ## Coding language(s)
-Coding languages to be used are mainly in Python, but the earlier data processing used bash scripts.
+Coding languages to be used are mainly in Python for annotation, but the earlier data processing used bash scripts.
 
 ## Existing packages you would like to use for the project.
 Required packages for data processing are listed below.
@@ -17,6 +17,7 @@ Required packages for data processing are listed below.
 * vcftools
 * samtools
 * picard
+* R
 
 There are some requirements for the conda environment that are needed and listed below.
 
@@ -40,17 +41,18 @@ I will be using WGS data from my current research project, but there are sample 
 
 
 ##  SCRIPTS INFORMTION
-Most of the scripts used in this bioinformatic pipeline were retreived from GATK v4.1.9.0 guide (https://gatk.broadinstitute.org/hc/en-us/sections/360010932391-4-1-9-0)
+Most of the scripts used in this bioinformatic pipeline were retreived from GATK v4.1.9.0 guide (https://gatk.broadinstitute.org/hc/en-us/sections/360010932391-4-1-9-0). Overall, there are 15 scripts for this analysis. Nine are for processing WGS data, five for miRNA prep, and 1 in python. The python script have 18 other supplemental scripts for the program to function to make the annotations to the final VCF. These python scripts were developed by Martyna O. Urbanek-Trzeciak and this program is available on https://github.com/martynaut/mirnome-mutations.
+
 
 
 The following  scripts are included in the Scripts_For_WGS_Processing folder:
 * **FastQC.sh** – Quality check for FastQ files
 * **Trimmomatic.sh** – Cleaning sequencing data by trimming ends
-* **FastQC.sh** – Quality check for FastQ files after trimming 
+* **FastQC_Trimmed_FastQ.sh** – Quality check for FastQ files after trimming 
 * **BWA-mem.sh** – Aligning WGS data to HG38 (human genome)
 * **Read_groups.sh** (Add or Replace Read Groups) – Adds or replaces read group tags in Fastq files
 * **Mark_Duplicates.sh** – Marks duplicate reads that could be artifacts of PCR
-* **Flag_stats.sh** and Depth_of_Coverage.sh) – counts the number of alignments and the number of times a nucleotide is read during a sequencing run
+* **Flag_stats.sh** and Depth_of_Coverage.sh – counts the number of alignments and the number of times a nucleotide is read during a sequencing run
 * **Base_Recalibration.sh** – detects sequencing machine errors 
 * **Haplotype_Caller.sh** – identify possible variant sites in samples
 
@@ -65,11 +67,8 @@ The following scripts are the scripts present in Scripts_For_miRNA_Processing:
 
 In the **mirnome-mutations folder**, you will  find all the necessary python scripts to create a conda environment to annonate the resulting VCF. For better understanding of these scripts please refer to the protocol of this program (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8686061/).
 
-Unfortunately, I have not been able to figure out how to get this program to function to process the VCF generated from the scripts above. However, I hope you will find this repo helpful.
+Unfortunately, I have not been able to figure out how to get this program to function to process the annotated VCF generated from the scripts above. However, I hope you will find this repo helpful.
 
 
 
 
-
-
-  
